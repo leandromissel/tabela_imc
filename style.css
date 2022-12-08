@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/Summer.jpg); 
+    background-repeat: repeat;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background-color: #22c1c3;
+    padding: 3rem;
+    max-width: 35%;
+    margin: 5rem auto; /* centraliza o container - O 5rem é em cima e em baixo, e dos lados é automático*/
+    border-radius: 1rem;
+}
+
+h1 {
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.intro {
+    text-align: justify;
+    line-height: 2.3rem;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+table td, tr {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+form label {
+    font-size: 1.3rem;
+}
+
+input {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 2rem;
+}
+
+input:focus {
+    outline: 1px solid #fdbb2d;
+}
+
+button {
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: #fdbb2d;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    background-color: #22c1c3;
+    color: white;
+    border: 2px solid #fdbb2d;;
+}
+
+.paragrafo-resultado {
+    background-color: #4ffcff;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.bad {
+    background-color: rgb(247, 112, 112);
+    padding: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .container {
+        max-width: 90%;
+        padding: 1rem;
+        margin: 1.5rem auto;
+    }
+}
